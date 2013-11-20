@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e31b03c-fa27-462a-9acd-4bdee6d91db8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LogoutTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LogoutTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/NotificationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/NotificationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendMessageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendMessageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/TestLoginFacebook.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/TestLoginFacebook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="citysocializer-automation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384960804342" ignored="false" />
+    <file path="/Dummy.txt" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384961396001" ignored="false" />
     <file path="/LoginScreenTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384714725710" ignored="false" />
     <file path="/LoginScreen.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384714378954" ignored="false" />
     <file path="/fragment.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384713496703" ignored="false" />
@@ -658,7 +652,11 @@
       <created>1384886254122</created>
       <updated>1384886254122</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First sanity test changes the imports">
+      <created>1384961400559</created>
+      <updated>1384961400559</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -749,7 +747,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="First sanity test" />
+    <option name="LAST_COMMIT_MESSAGE" value="First sanity test changes the imports" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -765,6 +763,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="uploading the project" />
     <MESSAGE value="First sanity test" />
+    <MESSAGE value="First sanity test changes the imports" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
