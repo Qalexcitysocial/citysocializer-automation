@@ -44,33 +44,33 @@ import static org.junit.Assert.assertEquals;
 
 public class LoginScreenTest {
 
-    RemoteWebDriver driver;
-    LoginScreen LoginScreen;
-
-
-
-
-    @Before
-    public void setUp() throws Exception {
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(CapabilityType.BROWSER_NAME, "ios");
-        capabilities.setCapability(CapabilityType.VERSION, "6.1");
-        capabilities.setCapability(CapabilityType.PLATFORM, "MAC");
-        capabilities.setCapability("app", "/Users/alexg/Library/Developer/Xcode/DerivedData/CitySocializer-aehjupgwiscfpkdrxnvdhdscngtn/Build/Products/Debug-iphonesimulator/CitySocializer.app");
-
-        driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
-
-    }
-
-
-    @Test
-    public void testLogin() throws InterruptedException {
-
-       LoginScreen = PageFactory.initElements(driver, LoginScreen.class);
-       LoginScreen.TapLoginButton();
-
-
-    }
+//    RemoteWebDriver driver;
+//    LoginScreen LoginScreen;
+//
+//
+//
+//
+//    @Before
+//    public void setUp() throws Exception {
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability(CapabilityType.BROWSER_NAME, "ios");
+//        capabilities.setCapability(CapabilityType.VERSION, "6.1");
+//        capabilities.setCapability(CapabilityType.PLATFORM, "MAC");
+//        capabilities.setCapability("app", "/Users/alexg/Library/Developer/Xcode/DerivedData/CitySocializer-aehjupgwiscfpkdrxnvdhdscngtn/Build/Products/Debug-iphonesimulator/CitySocializer.app");
+//
+//        driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
+//
+//    }
+//
+//
+//    @Test
+//    public void testLogin() throws InterruptedException {
+//
+//       LoginScreen = PageFactory.initElements(driver, LoginScreen.class);
+//       LoginScreen.TapLoginButton();
+//
+//
+//    }
 
 
 
