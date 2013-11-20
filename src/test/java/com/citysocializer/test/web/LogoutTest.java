@@ -7,22 +7,23 @@ package com.citysocializer.test.web;
  * Time: 17:54
  * To change this template use File | Settings | File Templates.
  */
-import static org.junit.Assert.*;
 
 
+import com.citysocializer.test.web.uicomponent.LoginPage;
+import com.citysocializer.test.web.uicomponent.MainPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
-import citysocializer.Mainpage;
-import citysocializer.LoginPage;
+
+import static org.junit.Assert.assertEquals;
 
 public class LogoutTest {
 
     WebDriver driver;
-    Mainpage Mainpage;
+    MainPage MainPage;
     LoginPage LoginPage;
 
     @Before
@@ -49,8 +50,8 @@ public class LogoutTest {
 
         //Test the right page
         driver.get("https://smoke.citysocializer.com");
-        Mainpage = PageFactory.initElements(driver, Mainpage.class);
-        Mainpage.clickLoginButton();
+        MainPage = PageFactory.initElements(driver, MainPage.class);
+        MainPage.clickLoginButton();
         Thread.sleep(3000);
         String url = driver.getCurrentUrl();
         assertEquals("https://smoke.citysocializer.com/login", url );

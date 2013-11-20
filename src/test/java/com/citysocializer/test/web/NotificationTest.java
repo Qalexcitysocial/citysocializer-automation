@@ -18,14 +18,14 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.thoughtworks.selenium.condition.Presence;
 
-import citysocializer.LoginPage;
-import citysocializer.Mainpage;
-import citysocializer.SendMessage;
+import com.citysocializer.test.web.uicomponent.LoginPage;
+import com.citysocializer.test.web.uicomponent.MainPage;
+import com.citysocializer.test.web.uicomponent.SendMessage;
 
 public class NotificationTest {
 
     WebDriver driver;
-    Mainpage Mainpage;
+    MainPage MainPage;
     SendMessage SendMessage;
     LoginPage LoginPage;
     private String baseUrl;

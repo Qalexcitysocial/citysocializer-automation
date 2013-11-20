@@ -30,15 +30,15 @@ import org.openqa.selenium.support.PageFactory;
 
 
 
-import citysocializer.LoginFacebook;
-import citysocializer.Mainpage;
+import com.citysocializer.test.web.uicomponent.LoginFacebook;
+import com.citysocializer.test.web.uicomponent.MainPage;
 
 
 public class TestLoginFacebook {
 
     LoginFacebook loginFacebook;
     WebDriver driver;
-    Mainpage Mainpage;
+    MainPage MainPage;
 
 
     @Before
@@ -54,8 +54,8 @@ public class TestLoginFacebook {
 
         //Test the right page
         driver.get("https://smoke.citysocializer.com/login");
-        Mainpage = PageFactory.initElements(driver, Mainpage.class);
-        Mainpage.clickFaceLoginButton();
+        MainPage = PageFactory.initElements(driver, MainPage.class);
+        MainPage.clickFaceLoginButton();
         Thread.sleep(3000);
 
         //driver.switchTo().alert();

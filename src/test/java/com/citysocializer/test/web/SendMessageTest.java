@@ -17,14 +17,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 
-import citysocializer.LoginPage;
-import citysocializer.Mainpage;
-import citysocializer.SendMessage;
+import com.citysocializer.test.web.uicomponent.LoginPage;
+import com.citysocializer.test.web.uicomponent.MainPage;
+import com.citysocializer.test.web.uicomponent.SendMessage;
 
 public class SendMessageTest {
 
     WebDriver driver;
-    Mainpage Mainpage;
+    MainPage MainPage;
     SendMessage SendMessage;
     LoginPage LoginPage;
     private String baseUrl;
