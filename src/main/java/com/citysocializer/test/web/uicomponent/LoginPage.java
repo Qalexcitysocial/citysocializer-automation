@@ -25,8 +25,8 @@ public class LoginPage {
     @FindBy(xpath = "//*[@id='remember_me']")
     private WebElement rememberCheckBox;
 
-    @FindBy(xpath = "//*[@id='user_nav_ul']/li[4]/a/span")
-    private WebElement Usermenu;
+    @FindBy(xpath = "/html/body/div/nav/ul/li[5]/ul/li[4]/a/span")
+    private WebElement UserMenu;
     //Settings element
     @FindBy(xpath = "//*[@id='user_nav_ul']/li[4]/a/span")
     private WebElement SettingsMenu;
@@ -69,7 +69,7 @@ public class LoginPage {
     }
 
     public void clickUserMenu(){
-        Usermenu.click();
+        UserMenu.click();
     }
 
     public void clickSettingsMenu(){

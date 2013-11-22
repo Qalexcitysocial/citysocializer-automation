@@ -20,6 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 
+import static java.lang.Thread.*;
 import static org.junit.Assert.assertEquals;
 
 public class ChangingAddressTest {
@@ -56,7 +57,7 @@ public class ChangingAddressTest {
         driver.get("https://staging.citysocializer.com");
         MainPage = PageFactory.initElements(driver, MainPage.class);
         MainPage.clickLoginButton();
-        Thread.sleep(3000);
+        sleep(3000);
         String url = driver.getCurrentUrl();
         assertEquals("https://staging.citysocializer.com/login", url );
 
@@ -66,17 +67,18 @@ public class ChangingAddressTest {
         LoginPage.enterEmail("agranada69@hotmail.com");
         LoginPage.enterPassword("123456");
         LoginPage.clickButtonLoginMe();
-        Thread.sleep(3000);
+        sleep(5000);
         LoginPage.clickUserMenu();
-        Thread.sleep(3000);
-        LoginPage.clickSettingsMenu();
-//
-//        Thread.sleep(5000);
-//        //LoginPage.clickSettingsMyAccount();
-//        //Thread.sleep(3000);
-//        MyAccount.setEmailField();
-//        MyAccount.setAddress("alex+9@citysocializer.com");
-//        MyAccount.clickSaveSettings();
+        sleep(3000);
+        LoginPage.clickSettingsMyAccount();
+        //sleep(5000);
+         //MyAccount.setEmailField();
+
+        //MyAccount.clickEmailField();
+        sleep(5000);
+        //MyAccount.setAddress("alex+9@citysocializer.com");
+        LoginPage.clickUserMenu();
+        //MyAccount.clickSaveSettings();
 //        LoginPage.clickUserMenu();
         LoginPage.clickLogout();
 
@@ -95,7 +97,7 @@ public class ChangingAddressTest {
 
     @After
     public void tearDown() throws Exception {
-        //driver.quit();
+        driver.quit();
     }
 
 }

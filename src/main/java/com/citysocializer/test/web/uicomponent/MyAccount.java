@@ -18,13 +18,13 @@ import org.openqa.selenium.support.FindBy;
     private WebDriver driver;
 
     //elements and annotations
-    @FindBy(xpath ="//*[@id='edit_settings']/div/div/table/tbody/tr[1]/td[2]/input" )
+    @FindBy(name ="email" )
     private WebElement EmailField;
 
-    @FindBy(xpath ="//*[@id='edit_settings']/div/div/table/tbody/tr[1]/td[2]/input" )
+    @FindBy(name ="email" )
     private WebElement Address;
 
-    @FindBy(xpath ="//*[@id=\"edit_settings\"]/div/div/div[3]/button" )
+    @FindBy(xpath ="//section[@id='edit_settings']/div/div/table/tbody/tr/td[2]")
     private WebElement SaveSettings;
 
 

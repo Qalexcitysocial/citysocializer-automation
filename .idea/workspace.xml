@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e31b03c-fa27-462a-9acd-4bdee6d91db8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendAnswerTest.java" />
-      <change type="DELETED" beforePath="C:\Users\User\Documents\Projects\citysocializer-automation\src\test\java\com\citysocializer\test\web\TestLoginFacebook.java" afterPath="" />
+    <list default="true" id="4e31b03c-fa27-462a-9acd-4bdee6d91db8" name="Default" comment="Change the email user">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/NotificationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/NotificationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendMessageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendMessageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="citysocializer-automation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385055247530" ignored="false" />
+    <file path="/Dummy.txt" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385138590307" ignored="false" />
     <file path="/LoginScreenTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384714725710" ignored="false" />
     <file path="/LoginScreen.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384714378954" ignored="false" />
     <file path="/fragment.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384713496703" ignored="false" />
@@ -28,8 +23,9 @@
     <file path="/SendAnswerTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385038669915" ignored="false" />
     <file path="/SendMessage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385043786175" ignored="false" />
     <file path="/ChangingAdressTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385136249401" ignored="false" />
-    <file path="/LoginPage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385133876754" ignored="false" />
-    <file path="/MyAccount.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385136238051" ignored="false" />
+    <file path="/LoginPage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385141497733" ignored="false" />
+    <file path="/MyAccount.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385142495623" ignored="false" />
+    <file path="/ChangingAddressTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385142147657" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChangingAddressTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ChangingAddressTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.0">
+            <state line="99" column="8" selection-start="2389" selection-end="2389" vertical-scroll-proportion="0.6980462">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +100,7 @@
       <file leaf-file-name="MyAccount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="63" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+            <state line="55" column="21" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,16 +122,16 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="30" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0">
+            <state line="26" column="24" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="68" selection-start="2574" selection-end="2574" vertical-scroll-proportion="0.5435169">
+            <state line="108" column="68" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,8 +168,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendMessageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAdressTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java" />
       </list>
     </option>
@@ -449,7 +445,7 @@
       <recent name="com.citysocializer.test.ios.uicomponent" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LogoutTest.testLogin">
+  <component name="RunManager" selected="JUnit.ChangingAddressTest">
     <configuration default="false" name="NotificationTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="citysocializer-automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -679,9 +675,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LogoutTest.testLogin" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LogoutTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ChangingAddressTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChangingAddressTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LogoutTest.testLogin" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LogoutTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.SendMessageTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.NotificationTest" />
       </list>
@@ -743,7 +739,11 @@
       <created>1384970265695</created>
       <updated>1384970265695</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Change the email user">
+      <created>1385138587446</created>
+      <updated>1385138587446</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -768,7 +768,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32800853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,7 +783,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3089648" sideWeight="0.6696329" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21291356" sideWeight="0.6696329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21291356" sideWeight="0.6696329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3303671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -834,7 +834,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="facebook test delete it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the email user" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -853,6 +853,7 @@
     <MESSAGE value="First sanity test changes the imports" />
     <MESSAGE value="Readme edit" />
     <MESSAGE value="facebook test delete it" />
+    <MESSAGE value="Change the email user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -956,9 +957,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="68" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="63" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+        <state line="55" column="21" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -967,24 +982,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.0">
+        <state line="99" column="8" selection-start="2389" selection-end="2389" vertical-scroll-proportion="0.6980462">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="30" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="68" selection-start="2574" selection-end="2574" vertical-scroll-proportion="0.5435169">
-          <folding />
         </state>
       </provider>
     </entry>
