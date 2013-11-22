@@ -82,21 +82,21 @@ public class SendMessageTest {
         SendMessage.clickSelectFriend();
 
         SendMessage.clickSendMessageButton();
-        Thread.sleep(5000);
-        SendMessage.clickFindSocializer();
-        Thread.sleep(5000);
-        SendMessage.clickWaveButton();
-        Thread.sleep(5000);
-        SendMessage.clickWaveButton2();
-        Thread.sleep(5000);
-        SendMessage.clickWaveButton3();
-        Thread.sleep(5000);
-        SendMessage.clickWaveButton4();
-        Thread.sleep(5000);
-        SendMessage.clickWaveButton5();
-        Thread.sleep(5000);
-        SendMessage.clickWaveButton6();
-        Thread.sleep(5000);
+//        Thread.sleep(5000);
+//        SendMessage.clickFindSocializer();
+//        Thread.sleep(5000);
+//        SendMessage.clickWaveButton();
+//        Thread.sleep(5000);
+//        SendMessage.clickWaveButton2();
+//        Thread.sleep(5000);
+//        SendMessage.clickWaveButton3();
+//        Thread.sleep(5000);
+//        SendMessage.clickWaveButton4();
+//        Thread.sleep(5000);
+//        SendMessage.clickWaveButton5();
+//        Thread.sleep(5000);
+//        SendMessage.clickWaveButton6();
+//        Thread.sleep(5000);
 
 
     }

@@ -43,8 +43,45 @@ public class SendMessage {
     //click in a social whatever
     @FindBy(xpath = "//*[@id='social_list']/div/section[2]/div[2]/div/div[1]/article[1]/div[2]/button")
     private WebElement YouAregGoing;
+
+    //Click in a social number 3 on the list
+    @FindBy(xpath ="//*[@id='social_list']/div/section[2]/div[2]/div/div[1]/article[2]/div[2]/button")
+    private WebElement YouAregGoing3;
+
+    //invite citysoclaizers friends
+    @FindBy(xpath = "//*[@id='invite_to_social']")
+    private WebElement invite_to_social;
+
+    //Element Button cancel social
+    @FindBy(id = "leave_social']")
+    private WebElement CantMakeIt;
+
+    //Join this social inside of a Social
+    @FindBy(xpath = "//*[@id='join_social']")
+    private WebElement JoinThisSocial;
+
+    @FindBy(xpath = "//*[@id='ui-id-6']/div/div/div/div/div[2]/button")
+    private WebElement ConfirmAndJoin;
+
+    @FindBy(id = "njs__message-input")
+    private WebElement SendSocialQuestion;
+
+    @FindBy(css = "button.js-leave-comment.njs__button--yellow")
+    private WebElement PostMyAnswer;
+
+    //skip button
+    @FindBy(xpath = "//*[@id='ui-id-37']/div/div/div/div/div[2]/a")
+    private WebElement SkipeButton;
+    //*[@id="ui-id-37"]/div/div/div/div/div[2]/a
+
+    //closing the the windows Invite friends X
+    @FindBy(xpath = "//div[12]/div/button")
+    private WebElement CloseInviteFriends;
+
+
+
     //invite a friends to a social
-    @FindBy(css = "html body div#content article#social.container div#social_settings.right-col div div.actions div div.social-actions section.joining_info button#invite_to_social.button")
+    @FindBy(css = "//*[@id='invite_to_social']")
     private WebElement InviteSocial;
     //Find Socitysocializers
     @FindBy(xpath = "//*[@id='main_nav_ul']/li[3]/a")
@@ -143,6 +180,8 @@ public class SendMessage {
 
 
 
+
+
     //constructor
 
     public void SendMessage(WebDriver driver){
@@ -179,9 +218,56 @@ public class SendMessage {
         JoinSocial.click();
     }
 
+    public void clickJoinThisSocial(){
+        JoinThisSocial.click();
+    }
+
+
+    public void clickConfirmAndJoin(){
+        ConfirmAndJoin.click();
+    }
+
+    public void clickSendSocialMessage(){
+        SendSocialQuestion.click();
+    }
+
+    public void clearSendSocialMessage(){
+        SendSocialQuestion.clear();
+    }
+
+    public void sendSocialMessage(){
+        SendSocialQuestion.click();
+    }
+
+
+
+    public void sendSocialMessage(String sendSocialMessage){
+        SendSocialQuestion.sendKeys(sendSocialMessage);
+    }
+
+    public void clickSkipButton(){
+        SkipeButton.click();
+    }
+
+    public void clickPostMyAnswer(){
+         PostMyAnswer.click();
+
+    }
+
+    public void clickCloseInviteFriends(){
+        CloseInviteFriends.click();
+
+    }
+
+
+
 
     public void clickYouAreGoing(){
         YouAregGoing.click();
+    }
+
+    public void clickYouAreGoing3(){
+        YouAregGoing3.click();
     }
 
     public void clickInviteSocial(){

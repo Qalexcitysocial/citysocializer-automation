@@ -27,6 +27,12 @@ public class LoginPage {
 
     @FindBy(xpath = "//*[@id='user_nav_ul']/li[4]/a/span")
     private WebElement Usermenu;
+    //Settings element
+    @FindBy(xpath = "//*[@id='user_nav_ul']/li[4]/a/span")
+    private WebElement SettingsMenu;
+    //My Account element
+    @FindBy(xpath = "//*[@id='user_nav_drop']/div/ul/li[4]/a")
+    private WebElement SettingsMyAccount;
 
     @FindBy(xpath = "//*[@id='user_nav_drop']/div/ul/li[3]/a")
     private WebElement Logout;
@@ -64,6 +70,14 @@ public class LoginPage {
 
     public void clickUserMenu(){
         Usermenu.click();
+    }
+
+    public void clickSettingsMenu(){
+        SettingsMenu.click();
+    }
+
+    public void clickSettingsMyAccount(){
+        SettingsMyAccount.click();
     }
 
     public void clickLogout(){

@@ -3,31 +3,38 @@ package com.citysocializer.test.web;
 /**
  * Created with IntelliJ IDEA.
  * User: User
- * Date: 19/11/13
- * Time: 17:56
+ * Date: 21/11/13
+ * Time: 10:34
  * To change this template use File | Settings | File Templates.
  */
+import com.citysocializer.test.web.uicomponent.SendMessage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
-import com.thoughtworks.selenium.condition.Presence;
+import javax.swing.*;
 
-import com.citysocializer.test.web.uicomponent.LoginPage;
-import com.citysocializer.test.web.uicomponent.MainPage;
-import com.citysocializer.test.web.uicomponent.SendMessage;
 
-public class NotificationTest {
+/**
+ * Created with IntelliJ IDEA.
+ * User: Alejandro Gomez
+ * Date: 19/11/13
+ * Time: 17:56
+ * To change this template use File | Settings | File Templates.
+ */
+
+
+public class SendAnswerTest {
 
     WebDriver driver;
-    MainPage MainPage;
-    SendMessage SendMessage;
-    LoginPage LoginPage;
+    com.citysocializer.test.web.uicomponent.MainPage MainPage;
+    com.citysocializer.test.web.uicomponent.SendMessage SendMessage;
+    com.citysocializer.test.web.uicomponent.LoginPage LoginPage;
     private String baseUrl;
 
 
@@ -60,7 +67,7 @@ public class NotificationTest {
 
         //Test LoginPage
         SendMessage = PageFactory.initElements(driver, SendMessage.class);
-        SendMessage.enterEmail("agranada69@hotmail.com");
+        SendMessage.enterEmail("alex+1@citysocializer.com");
         SendMessage.enterPassword("123456");
         SendMessage.clickButtonLoginMe();
 
@@ -72,15 +79,20 @@ public class NotificationTest {
         SendMessage.clickJoinSocials();
         Thread.sleep(1000);
         SendMessage.clickYouAreGoing3();
-        Thread.sleep(3000);
-        SendMessage.clickInviteSocial();
-        Thread.sleep(3000);
-        SendMessage.clickInviteFriends("Valentina");
-        Thread.sleep(3000);
-        SendMessage.clearSendFriend();
-        SendMessage.clickFriend0();
-        Thread.sleep(3000);
-        SendMessage.clickSendFriend();
+        Thread.sleep(1000);
+        SendMessage.clickJoinThisSocial();
+        Thread.sleep(1000);
+        SendMessage.clickConfirmAndJoin();
+        Thread.sleep(1000);
+        SendMessage.sendSocialMessage("How many girls going to the party?");
+        SendMessage.clickPostMyAnswer();
+        Thread.sleep(1000);
+        //SendMessage.clickCloseInviteFriends();
+
+
+
+
+
 
 
 
@@ -92,7 +104,7 @@ public class NotificationTest {
 
     @After
     public void tearDown() throws Exception {
-       // driver.quit();
+        //driver.quit();
     }
 
 }
