@@ -17,7 +17,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class CreateASocial {
 
-
+    private WebDriver driver;
     //Host socialButton
     @FindBy(xpath = "//*[@id='main_nav_ul']/li[6]/a")
     private WebElement HostSocialButton;
@@ -57,7 +57,7 @@ public class CreateASocial {
     //Constructor
 
     public CreateASocial(WebDriver driver) {
-
+         this.driver = driver;
     }
 
 

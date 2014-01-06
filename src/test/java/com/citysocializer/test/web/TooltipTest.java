@@ -3,42 +3,35 @@ package com.citysocializer.test.web;
 /**
  * Created with IntelliJ IDEA.
  * User: User
- * Date: 21/11/13
- * Time: 10:34
+ * Date: 04/12/13
+ * Time: 17:49
  * To change this template use File | Settings | File Templates.
  */
-import com.citysocializer.test.web.uicomponent.JoinSocialPage;
-import com.citysocializer.test.web.uicomponent.SendMessage;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+
+import com.citysocializer.test.web.uicomponent.LoginPage;
+import com.citysocializer.test.web.uicomponent.MainPage;
+import com.citysocializer.test.web.uicomponent.SendMessage;
 
 import static java.lang.Thread.sleep;
 import static org.openqa.selenium.By.xpath;
 
-
-/**
- * Created with IntelliJ IDEA.
- * User: Alejandro Gomez
- * Date: 19/11/13
- * Time: 17:56
- * To change this template use File | Settings | File Templates.
- */
-
-
-public class SendAnswerTest {
+public class TooltipTest {
 
     WebDriver driver;
+    MainPage MainPage;
     SendMessage SendMessage;
-    JoinSocialPage JoinSocialPage;
-
+    LoginPage LoginPage;
     private String baseUrl;
-
 
 
     @Before
@@ -60,7 +53,7 @@ public class SendAnswerTest {
     }
 
     @Test
-    public void JoinASocial() throws InterruptedException {
+    public void tooltipTest() throws InterruptedException {
 
 
         //Test the right page
@@ -69,43 +62,26 @@ public class SendAnswerTest {
 
         //Test LoginPage
         SendMessage = PageFactory.initElements(driver, SendMessage.class);
-        SendMessage.enterEmail("alex+15@citysocializer.com");
+        SendMessage.enterEmail("alex+5@citysocializer.com");
         SendMessage.enterPassword("123456");
         SendMessage.clickButtonLoginMe();
+        Thread.sleep(2000);
         //Test the Main page
-        Thread.sleep(2000);
         //Join to socials
+        SendMessage.clickcloseinitwindow(); //this step can be delete when the wizar not appear anymore
         SendMessage.clickFindSocializer();
-        Thread.sleep(2000);
-        SendMessage.clickJoinSocials();
-        Thread.sleep(2000);
-        SendMessage.clickYouAreGoing3();
-        Thread.sleep(5000);
-        if(driver.findElements(xpath("//*[@id='leave_social']")).size() != 0){
+        //Check the element tooltip is present
+        if(driver.findElements(xpath("//*[@id='people_list']/div/section[2]/div[2]/div/div[1]/div[3]/article/div[2]/h3/span[2]")).size() != 0){
             System.out.println("Element is Present");
-            Thread.sleep(5000);
-            SendMessage.clickCancelJoinSocial();
-            sleep(5000);
-            SendMessage.clickCancelJoinSocialConfirm();
-            Thread.sleep(5000);
         }else{
-
             System.out.println("Element is Not Present");
         }
-        Thread.sleep(5000);
-        SendMessage.clickJoinThisSocial();
-        sleep(1000);
-        SendMessage.clickConfirmAndJoin();
-        sleep(5000);
-        SendMessage.clickSocialMessage();
-        SendMessage.sendSocialMessage("How many girls going to the party?");
-        SendMessage.clickPostMyAnswer();
-        Thread.sleep(4000);
-        SendMessage.clickChooseFriend();
-        Thread.sleep(4000);
-        SendMessage.clickSendInvitation();
+
 
     }
+
+
+
     @After
     public void tearDown() throws Exception {
         driver.quit();

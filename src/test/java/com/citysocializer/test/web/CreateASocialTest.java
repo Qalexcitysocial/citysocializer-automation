@@ -55,8 +55,9 @@ public class CreateASocialTest {
         driver.findElement(By.name("password")).clear();
         driver.findElement(By.name("password")).sendKeys("123456");
         driver.findElement(By.xpath("//form[@id='login_form']/button")).click();
-        driver.findElement(By.xpath("//div[@id='social_list']/div")).click();
+        Thread.sleep(5000);
         driver.findElement(By.xpath("//*[@id='main_nav_ul']/li[6]/a")).click();
+        //driver.findElement(By.xpath("//*[@id='main_nav_ul']/li[6]/a")).click();
         //driver.findElement(By.id("confirm_venue_later")).click();
         driver.findElement(By.name("name")).click();
         driver.findElement(By.name("name")).clear();
@@ -81,15 +82,15 @@ public class CreateASocialTest {
         //driver.findElement(By.id("dp1383819187146")).click();
         //Thread.sleep(3000);
         driver.findElement(By.name("to_be_confirmed")).click();
-        Thread.sleep(3000);
-
+        //Thread.sleep(3000);
+        //driver.findElement(By.cssSelector("html body div.ui-dialog div#create_social_popup.popup div#create_social_accordion.ui-accordion div#create_social_basics.ui-accordion-content div#create_social_location_date input#dp1385661388722.hasDatepicker")).sendKeys("28/09/2014");
         //*[@id="datepicker"]/div/table/tbody/tr[4]/td[2]/a
-	    /*
+	    /* html body div.ui-dialog div#create_social_popup.popup div#create_social_accordion.ui-accordion div#create_social_basics.ui-accordion-content div#create_social_location_date input#dp1385661388722.hasDatepicker
 	    driver.findElement(By.name("date")).click();
 	    driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/table/tbody/tr[3]/td[4]/a")).click();
 
 	    //driver.findElement(By.xpath("//*[@id='dp1383830808702']")).click();
-	    //driver.findElement(By.name("date")).sendKeys("14/11/2013");
+
 	    driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/table/tbody/tr[3]/td[4]/a")).click();
 	    //driver.findElement(By.xpath("//*[@id='dp1383830808702']")).click();
 	     */

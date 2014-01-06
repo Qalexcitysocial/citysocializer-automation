@@ -59,7 +59,10 @@ public class MainPage{
     @FindBy(xpath = "//div[@id='location_id_chzn']/a")
     private WebElement Location;
 
-    @FindBy(id = "#location_id_chzn_o_10")
+    @FindBy(xpath = "//*[@id='location_id_chzn_o_42']")
+    private WebElement City;
+
+    @FindBy(xpath = "//*[@id='location_id_chzn_o_42']")
     private WebElement SelectLocation;
 
     //date of birthday
@@ -150,14 +153,27 @@ public class MainPage{
 
     public void Location(){
         Location.click();
-        Location.clear();
+        //Location.clear();
     }
 
-    public void selectLocation(){
-        SelectLocation.sendKeys("Aachen");
+    public void SelectLocation(){
+    SelectLocation.click();
+    }
 
+    public void Location(String city){
+        Location.sendKeys(city);
+        //Location.clear();
+    }
+
+    public void City(){
+        Location.click();
 
     }
+
+
+
+
+
 
     public void Day(){
         Day.click();

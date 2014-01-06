@@ -11,6 +11,7 @@ package com.citysocializer.test.web;
 import com.citysocializer.test.web.uicomponent.LoginPage;
 import com.citysocializer.test.web.uicomponent.MainPage;
 import com.citysocializer.test.web.uicomponent.MyAccount;
+import com.citysocializer.test.web.uicomponent.SendMessage;
 
 import org.junit.After;
 import org.junit.Before;
@@ -29,7 +30,7 @@ public class ChangingAddressTest {
     MainPage MainPage;
     MyAccount MyAccount;
     LoginPage LoginPage;
-
+    SendMessage SendMessage;
 
 
 
@@ -64,10 +65,12 @@ public class ChangingAddressTest {
 
         //Test LoginPage
         LoginPage = PageFactory.initElements(driver, LoginPage.class);
+        SendMessage = PageFactory.initElements(driver, SendMessage.class);
         LoginPage.enterEmail("agranada69@hotmail.com");
         LoginPage.enterPassword("123456");
         LoginPage.clickButtonLoginMe();
         sleep(5000);
+        SendMessage.clickcloseinitwindow(); //this step can be delete when the wizar not appear anymore
         LoginPage.clickUserMenu();
         sleep(3000);
         LoginPage.clickSettingsMyAccount();

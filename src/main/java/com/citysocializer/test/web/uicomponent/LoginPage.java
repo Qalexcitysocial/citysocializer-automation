@@ -22,7 +22,7 @@ public class LoginPage {
     @FindBy(xpath = "//*[@id='login_form']/button")
     private WebElement loginMeButton;
 
-    @FindBy(xpath = "//*[@id='remember_me']")
+    @FindBy(css = "html body div#login_wrap div#login div#login_box div.login-form-region div form#login_form.clearfix div#below.center div.inline input#remember_me")
     private WebElement rememberCheckBox;
 
     @FindBy(xpath = "/html/body/div/nav/ul/li[5]/ul/li[4]/a/span")
@@ -37,6 +37,12 @@ public class LoginPage {
     @FindBy(xpath = "//*[@id='user_nav_drop']/div/ul/li[3]/a")
     private WebElement Logout;
 
+    //Cityboard
+    @FindBy(xpath = "//*[@id='update_my_status']/input")
+    private WebElement SendCityMessage;
+
+    @FindBy(name = "message")
+    private WebElement CityboardMessage;
     //constructor
 
     public LoginPage(WebDriver driver){
@@ -84,6 +90,19 @@ public class LoginPage {
         Logout.click();
     }
 
+//    public void clickCityboard(){
+//        Cityboard.click();
+//
+//    }
+
+    public void clickSendCityMessageButton(){
+       SendCityMessage.click();
+
+    }
+
+    public void writeCityMessage(String writeCityB){
+        CityboardMessage.sendKeys(writeCityB);
+    }
 
 
 }

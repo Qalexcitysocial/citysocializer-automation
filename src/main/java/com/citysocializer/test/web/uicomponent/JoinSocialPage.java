@@ -24,17 +24,19 @@ public class JoinSocialPage {
     @FindBy(xpath = "//*[@id='leave_social_popup']/button")
     private WebElement CancelJoinSocialConfirmation;
 
-    @FindBy(xpath = "//*[@id='social_list']/div[2]/section[2]/div[1]/div[2]/div/div/a/span[1]")
+    @FindBy(xpath = "//*[@id='social_list']/div[2]/section[2]/div[1]/div[2]/div/div/a/span[2]")
     private WebElement DateCalendar;
 
-    @FindBy(xpath = "//*[@id='popup-insert-container']/div/div/div[2]/div[1]/table/tbody/tr[3]/td[1]/a")
+    @FindBy(xpath = "//*[@id='filter_this_week']")
     private WebElement InitDay;
 
-    @FindBy(xpath = "//*[@id=\"popup-insert-container\"]/div/div/div[2]/div[1]/table/tbody/tr[6]/td[2]/a")
+    @FindBy(xpath = "//*[@id='popup-insert-container']/div/div/div[2]/div[1]/table/tbody/tr[6]/td[2]/a")
     private WebElement EndDay;
 
 
 
+    @FindBy(xpath = "//*[@id='main_nav_ul']/li[3]/a")
+    private WebElement FindSocializers;
 
     //constructor
     public void JoinSocialPage(WebDriver driver){
@@ -42,6 +44,10 @@ public class JoinSocialPage {
     }
 
     //metodos
+
+    public void clickFindSocializer(){
+        FindSocializers.click();
+    }
 
     public void clickCancelJoinSocial(){
         CancelJoinSocial.click();

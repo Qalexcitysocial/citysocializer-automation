@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e31b03c-fa27-462a-9acd-4bdee6d91db8" name="Default" comment="Change the email user">
+    <list default="true" id="4e31b03c-fa27-462a-9acd-4bdee6d91db8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CityBoardTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateNewUserTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/FacebookWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginByFacebookTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SocialsByDateRangeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/TooltipTest.java" />
+      <change type="DELETED" beforePath="C:\Users\User\Documents\Projects\citysocializer-automation\src\main\java\com\citysocializer\test\web\uicomponent\LoginFacebook.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\User\Documents\Projects\citysocializer-automation\src\main\java\com\citysocializer\test\web\uicomponent\CreateAsocial.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/CreateASocial.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateASocialTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateASocialTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/JoinSocialPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/JoinSocialPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginPageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendAnswerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendAnswerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="citysocializer-automation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385138590307" ignored="false" />
+    <file path="/Dummy.txt" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1389001970402" ignored="false" />
     <file path="/LoginScreenTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384714725710" ignored="false" />
     <file path="/LoginScreen.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384714378954" ignored="false" />
     <file path="/fragment.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384713496703" ignored="false" />
@@ -20,12 +34,25 @@
     <file path="/SendMessageTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384961286568" ignored="false" />
     <file path="/TestLoginFacebook.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384961370066" ignored="false" />
     <file path="/README.md" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1384962149148" ignored="false" />
-    <file path="/SendAnswerTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385038669915" ignored="false" />
-    <file path="/SendMessage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385043786175" ignored="false" />
+    <file path="/SendAnswerTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385660520779" ignored="false" />
+    <file path="/SendMessage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386856227728" ignored="false" />
     <file path="/ChangingAdressTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385136249401" ignored="false" />
-    <file path="/LoginPage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385141497733" ignored="false" />
+    <file path="/LoginPage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386177380087" ignored="false" />
     <file path="/MyAccount.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385142495623" ignored="false" />
-    <file path="/ChangingAddressTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385142147657" ignored="false" />
+    <file path="/ChangingAddressTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386933899327" ignored="false" />
+    <file path="/JoinSocialPage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386864377119" ignored="false" />
+    <file path="/CreateASocial.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385638712804" ignored="false" />
+    <file path="/CreateASocialTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1385721183929" ignored="false" />
+    <file path="/LoginPageTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386173660972" ignored="false" />
+    <file path="/CityBoardTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386935262882" ignored="false" />
+    <file path="/TooltipTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386588715044" ignored="false" />
+    <file path="/MainMenu.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386591838034" ignored="false" />
+    <file path="/LoginByFacebookTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386604500792" ignored="false" />
+    <file path="/FacebookWindow.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386598282834" ignored="false" />
+    <file path="/SocialsByDateRangeTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386866061550" ignored="false" />
+    <file path="/CreateNewUser.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386952378392" ignored="false" />
+    <file path="/MainPage.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386956787437" ignored="false" />
+    <file path="/CreateNewUserTest.java" changelist="4e31b03c-fa27-462a-9acd-4bdee6d91db8" time="1386957076320" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +67,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -76,54 +104,42 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="citysocializer-automation" />
+    <favorites_list name="citysocializer-automation">
+      <favorite_root url="com.citysocializer.test.web.uicomponent.JoinSocialPage" module="citysocializer-automation" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChangingAddressTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java">
+      <file leaf-file-name="JoinSocialPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/JoinSocialPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="8" selection-start="2389" selection-end="2389" vertical-scroll-proportion="0.6980462">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyAccount.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="21" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPageTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="41" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="24" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+            <state line="37" column="53" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocialsByDateRangeTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SocialsByDateRangeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="27" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateNewUserTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateNewUserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="131" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.30742857">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +147,16 @@
       <file leaf-file-name="MainPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="68" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0">
+            <state line="64" column="54" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendMessage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="144" column="31" selection-start="4822" selection-end="4822" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,21 +181,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateASocialTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginFacebook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/CreateAsocial.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/CreateASocial.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LogoutTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/TestLoginFacebook.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/ios/LoginScreenTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendAnswerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/NotificationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendMessageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAdressTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/TooltipTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginByFacebook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/FacebookWindow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginByFacebookTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/JoinSocialPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SocialsByDateRangeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CityBoardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateNewUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateNewUserTest.java" />
       </list>
     </option>
   </component>
@@ -262,6 +287,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -379,10 +406,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uicomponent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -409,11 +432,13 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uicomponent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,15 +470,15 @@
       <recent name="com.citysocializer.test.ios.uicomponent" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChangingAddressTest">
-    <configuration default="false" name="NotificationTest" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.CreateNewUserTest.testCreateNewUser">
+    <configuration default="false" name="SocialsByDateRangeTest.testSocialByDateRange" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="citysocializer-automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.citysocializer.test.web" />
-      <option name="MAIN_CLASS_NAME" value="com.citysocializer.test.web.NotificationTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.citysocializer.test.web.SocialsByDateRangeTest" />
+      <option name="METHOD_NAME" value="testSocialByDateRange" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -468,36 +493,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SendMessageTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="SocialsByDateRangeTest.testFf" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="citysocializer-automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.citysocializer.test.web" />
-      <option name="MAIN_CLASS_NAME" value="com.citysocializer.test.web.SendMessageTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LogoutTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="citysocializer-automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.citysocializer.test.web" />
-      <option name="MAIN_CLASS_NAME" value="com.citysocializer.test.web.LogoutTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.citysocializer.test.web.SocialsByDateRangeTest" />
+      <option name="METHOD_NAME" value="testFf" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -534,13 +537,35 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LogoutTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="CityBoardTest.testCityBoard" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="citysocializer-automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.citysocializer.test.web" />
-      <option name="MAIN_CLASS_NAME" value="com.citysocializer.test.web.LogoutTest" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.citysocializer.test.web.CityBoardTest" />
+      <option name="METHOD_NAME" value="testCityBoard" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateNewUserTest.testCreateNewUser" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="citysocializer-automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.citysocializer.test.web" />
+      <option name="MAIN_CLASS_NAME" value="com.citysocializer.test.web.CreateNewUserTest" />
+      <option name="METHOD_NAME" value="testCreateNewUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -667,19 +692,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NotificationTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SendMessageTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LogoutTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ChangingAddressTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LogoutTest.testLogin" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SocialsByDateRangeTest.testSocialByDateRange" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SocialsByDateRangeTest.testFf" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ChangingAddressTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CityBoardTest.testCityBoard" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CreateNewUserTest.testCreateNewUser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ChangingAddressTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LogoutTest.testLogin" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LogoutTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SendMessageTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NotificationTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CreateNewUserTest.testCreateNewUser" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CityBoardTest.testCityBoard" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChangingAddressTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SocialsByDateRangeTest.testSocialByDateRange" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SocialsByDateRangeTest.testFf" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -743,7 +768,15 @@
       <created>1385138587446</created>
       <updated>1385138587446</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Change the email user and create Changingthe email address test">
+      <created>1385143449671</created>
+      <updated>1385143449671</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Change the email user and create Changingthe email address test">
+      <created>1386853402068</created>
+      <updated>1386853402068</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -774,20 +807,20 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3303671" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3089648" sideWeight="0.6696329" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06830309" sideWeight="0.6718576" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21291356" sideWeight="0.6696329" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3303671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19156884" sideWeight="0.6718576" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29922137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -834,7 +867,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the email user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the email user and create Changingthe email address test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -854,6 +887,7 @@
     <MESSAGE value="Readme edit" />
     <MESSAGE value="facebook test delete it" />
     <MESSAGE value="Change the email user" />
+    <MESSAGE value="Change the email user and create Changingthe email address test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -875,114 +909,108 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/CreateASocial.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LogoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="78" selection-start="986" selection-end="986" vertical-scroll-proportion="0.5572917" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginFacebook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="238" selection-end="238" vertical-scroll-proportion="0.27175844" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="57" selection-end="57" vertical-scroll-proportion="0.11785095" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.37.0/selenium-api-2.37.0.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="339" selection-end="339" vertical-scroll-proportion="0.41698113" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendMessageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="74" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-0.47569445">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/ios/LoginScreenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="45" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.6215278">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateASocialTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="595" selection-end="595" vertical-scroll-proportion="0.029513888">
+        <state line="65" column="49" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.5389948">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="873" selection-end="873" vertical-scroll-proportion="0.7673611">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/NotificationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="27" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.21492007">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.077892326" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SendAnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="37" selection-start="2272" selection-end="2272" vertical-scroll-proportion="0.030195381">
-          <folding />
-        </state>
+        <state line="95" column="51" selection-start="2805" selection-end="2805" vertical-scroll-proportion="0.74684995" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/CreateASocial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="55" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.030195381">
-          <folding />
-        </state>
+        <state line="21" column="56" selection-start="463" selection-end="463" vertical-scroll-proportion="0.36998853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/FacebookWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="37" selection-start="880" selection-end="880" vertical-scroll-proportion="0.6689576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+        <state line="55" column="50" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.48682705">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/TooltipTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="68" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0">
+        <state line="27" column="69" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="31" selection-start="4822" selection-end="4822" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/JoinSocialPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+        <state line="37" column="53" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MyAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="21" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
+        <state line="17" column="65" selection-start="383" selection-end="383" vertical-scroll-proportion="0.29142857" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="22" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.30057144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CityBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="62" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.6571429">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/ChangingAddressTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/LoginByFacebookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="8" selection-start="2389" selection-end="2389" vertical-scroll-proportion="0.6980462">
+        <state line="27" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.5245714">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/SocialsByDateRangeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="27" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citysocializer/test/web/uicomponent/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="54" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/citysocializer/test/web/CreateNewUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="131" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.30742857">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

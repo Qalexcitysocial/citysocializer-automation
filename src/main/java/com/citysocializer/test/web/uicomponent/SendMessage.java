@@ -40,6 +40,7 @@ public class SendMessage {
     //Join in a social
     @FindBy(xpath = "//*[@id='main_nav_ul']/li[2]/a")
     private WebElement JoinSocial;
+
     //click in a social whatever
     @FindBy(xpath = "//*[@id='social_list']/div/section[2]/div[2]/div/div[1]/article[1]/div[2]/button")
     private WebElement YouAregGoing;
@@ -66,17 +67,38 @@ public class SendMessage {
     @FindBy(id = "njs__message-input")
     private WebElement SendSocialQuestion;
 
+    //cancel Social button
+    @FindBy(xpath = "//*[@id='leave_social']")
+    private WebElement CancelJoinSocial;
+
+    //Pop up to choise friends in Join a Social
+    @FindBy(xpath = "//*[@id='select_friends']/div[2]/div[2]/img")
+    private WebElement ChooseFriend;
+
+    //click Send Social Message
+    @FindBy(xpath = "//*[@id='ui-id-6']/div/div/div/div/div[2]/button")
+    private WebElement SendInvitation;
+
+
+    @FindBy(xpath = "//*[@id='leave_social_popup']/button")
+    private WebElement CancelJoinSocialConfirmation;
+
+
     @FindBy(css = "button.js-leave-comment.njs__button--yellow")
     private WebElement PostMyAnswer;
 
     //skip button
     @FindBy(xpath = "//*[@id='ui-id-37']/div/div/div/div/div[2]/a")
     private WebElement SkipeButton;
-    //*[@id="ui-id-37"]/div/div/div/div/div[2]/a
+
 
     //closing the the windows Invite friends X
-    @FindBy(xpath = "//div[12]/div/button")
+    @FindBy(xpath = "/html/body/div[15]/div[1]/button/span[2]")
     private WebElement CloseInviteFriends;
+
+    //this window appear during the login is temporal you can delete when the page will back to the normality
+    @FindBy(css = "html body div.ui-dialog div.ui-dialog-titlebar button.ui-button")
+    private WebElement closeinitwindow;
 
 
 
@@ -110,19 +132,28 @@ public class SendMessage {
     //choose some friend5
     @FindBy(xpath ="//*[@id='select_friends']/div[2]/div[6]/img")
     private WebElement Friend5;
-
-
+    //Send invitation
     @FindBy(xpath = "//*[@id='invite_via_cs']/div[2]/div[2]/button")
     private WebElement SendInvite;
 
+    //-------Social Calendar-------
+
+    @FindBy(xpath = "//*[@id='social_list']/div[2]/section[2]/div[1]/div[2]/div/div/a/span[2]")
+    private WebElement DateCalendar;
+
+    @FindBy(xpath = "//*[@id='popup-insert-container']/div/div/div[2]/div[1]/table/tbody/tr[5]/td[3]/a")
+    private WebElement InitDay;
+
+    @FindBy(xpath = "//*[@id='popup-insert-container']/div/div/div[2]/div[2]/table/tbody/tr[5]/td[5]/a")
+    private WebElement EndDay;
 
 
-
+    //----End Social Calendar----------------------
     //Cityboard
-    @FindBy(xpath = "//*[@id='cityboard-drop-wrapper']/a/span[1]")
+    @FindBy(xpath = "//li[@id='cityboard-drop-wrapper']/a/span[2]")
     private WebElement Cityboard;
 
-    @FindBy(xpath = "//*[@id='cityboard-drop-wrapper']/a/span[2]")
+    @FindBy(xpath = "//li[@id='cityboard-drop-wrapper']/a/span[2]")
     private WebElement MenuCity;
 
     @FindBy(xpath = "//*[@id='wallet_drop_wrapper']/a")
@@ -190,6 +221,28 @@ public class SendMessage {
 
     }
 
+    //----Social Calendar methods------------
+
+    public void clickFindSocializer(){
+        FindSocializers.click();
+    }
+
+    public void clickCalendar(){
+        DateCalendar.click();
+    }
+
+    //click in date range
+    public void clickDateCalendar(){
+        InitDay.click();
+    }
+    //click in date range
+    public void clickChooseDay(){
+        EndDay.click();
+    }
+
+    //-----End Social Calendar-------------------
+
+
     //methods
     public void enterEmail(String enterEmail){
         email.sendKeys(enterEmail);
@@ -227,6 +280,22 @@ public class SendMessage {
         ConfirmAndJoin.click();
     }
 
+    public void clickCancelJoinSocial(){
+        CancelJoinSocial.click();
+    }
+
+    public void clickCancelJoinSocialConfirm(){
+        CancelJoinSocialConfirmation.click();
+    }
+
+    public void clickChooseFriend(){
+        ChooseFriend.click();
+    }
+
+    public void clickSendInvitation(){
+        SendInvitation.click();
+    }
+
     public void clickSendSocialMessage(){
         SendSocialQuestion.click();
     }
@@ -239,7 +308,9 @@ public class SendMessage {
         SendSocialQuestion.click();
     }
 
-
+    public void clickSocialMessage(){
+        SendSocialQuestion.click();
+    }
 
     public void sendSocialMessage(String sendSocialMessage){
         SendSocialQuestion.sendKeys(sendSocialMessage);
@@ -313,10 +384,6 @@ public class SendMessage {
         Friend5.click();
     }
 
-
-    public void clickFindSocializer(){
-        FindSocializers.click();
-    }
 
 
     public void clickCityboard(){
@@ -394,6 +461,11 @@ public class SendMessage {
         WaveButton6.click();
     }
 
+    //delete this method when the app back to the normality
+    //this window open always even when your profile is at 100%
+    public void clickcloseinitwindow(){
+        closeinitwindow.click();
+    }
 
 
 
